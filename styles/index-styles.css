@@ -17,7 +17,7 @@ header{
 
 .header--content-container{
     min-width: 320px;
-    width: 90vw;
+    width: 90%;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ header{
     text-align:left;
 }
 .main--first-section--text-and-button{
-    width: 90vw;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -50,8 +50,6 @@ header{
 
 .tittle, .explication{
     color: white;
-    
-
 }
 .tittle{
     margin-top: 40px;
@@ -122,3 +120,52 @@ header{
     display: inline-block;
 }
 
+
+/* Footer */
+footer{
+    background-color: #010117;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer h2, 
+.footer-empresa h3,
+.footer-contacto h3, 
+.footer-empresa ul li, 
+.footer-contacto ul li{
+    color: white;
+} 
+
+.footer-title{
+    display: inline-block;
+}
+
+.footer-empresa h3,.footer-contacto h3{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-title{
+    font-size: 4rem;
+}
+.footer-empresa h3, .footer-contacto h3{
+    font-size: 3rem;
+}
+
+.footer-empresa ul li,.footer-contacto ul li{
+    font-size: 2rem;
+}
+
+.footer-empresa ul li, 
+.footer-contacto ul li{
+    margin-top: 20px;
+}
+.footer-empresa ul li:first-child,
+.footer-contacto ul li:first-child
+{
+    margin-top: 0px;
+}
