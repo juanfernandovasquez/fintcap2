@@ -187,12 +187,17 @@ header{
 
 
 .send-button{
-    display: inline-block;
     width: 90%;
     background-color: #010117;
-    color: white;
     padding: 15px;
     border: none;
+    text-align: center;
+}
+
+.send-button p{
+    color: white;
+    display: inline-block;
+    margin: 0;
     
 }
 
