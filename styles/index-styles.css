@@ -57,7 +57,8 @@ header{
 }
 .tittle{
     font-size: 3.7rem;
-    line-height: 5.5rem;
+    font-weight: bold;
+    line-height: 5rem;
 }
 .explication{
     margin-top: 40px;
@@ -116,11 +117,12 @@ header{
     min-height: 380px;
 
     /*espaciado*/
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow:  0 3px 6px rgba(0, 0, 0, 0.65);
+    padding: 0 10px;
 }
 
 
