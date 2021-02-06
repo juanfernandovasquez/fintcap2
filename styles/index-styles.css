@@ -1,10 +1,12 @@
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: 0;
     padding: 0;
 }
+
 html{
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
@@ -24,10 +26,11 @@ header{
     align-items: center;
 }
 
-.header-logo{
-    width: 181px;
-    height: 51px;
-    border: solid 1px black;
+
+.header-logo p{
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: bold;
 }
 .header-hamburger_menu{
     height: 30px;
@@ -38,12 +41,13 @@ header{
 
 /*first section*/
 .first-section--container{
-    background-color: #3A3FDB;
+    background-color: #2E33BD;
     text-align:left;
 }
 .main--first-section--text-and-button{
     width: 90%;
     margin: 0 auto;
+    padding: 30px 0px 30px 0px;
     display: flex;
     flex-direction: column;
 }
@@ -52,36 +56,26 @@ header{
     color: white;
 }
 .tittle{
-    margin-top: 40px;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 3.7rem;
+    line-height: 5.5rem;
 }
 .explication{
     margin-top: 40px;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
 }
 
-.main--register-button{
-    margin: 0 auto;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    width: 300px;
-    height: 67px;
-    font-size: 30px;
-    color: black;
-}
 
 /*second section container*/
-.second-section--container{
-    max-width: 100vw;
+.second-section--img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/images/scene_2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
-}
-.second-section--image{
-    margin: 0 auto;
-    max-width: 300px;
 }
 
 
@@ -91,33 +85,66 @@ header{
 .third-section--container{
     width: 100vw;
     background-color: #F0EEEE;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
 .third-section--container h2{
     display: inline-block;
-    font-size: 30px;
-    margin-top: 60px;
-    margin-bottom: 20px;
-    
+    font-size: 3rem;
+    margin-bottom: 35px;
 }
 
 .third-section--cards-container{
     display: flex;
     flex-direction: column;
 }
-.cards-container--card{
+
+.card-container--card{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
     text-align: center;
-    align-items: center;    
+    align-items: center;  
+    justify-content: space-between;  
+    background-color: white;
+    height: 380px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:  0 3px 6px rgba(0, 0, 0, 0.65);
 }
-.cards-container--card p{
-    font-size: 25px;
-    width: 280px;
+
+/*cards images*/
+.cards--image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.card--image-1{
+    background-image: url('../assets/images/1.svg');
+}
+.card--image-2{
+    background-image: url('../assets/images/2.svg');
+}
+.card--image-3{
+    background-image: url('../assets/images/3.svg');
+}
+.card--image-4{
+    background-image: url('../assets/images/4.svg');
+}
+
+.card-container--card p{
+    font-size: 2.5rem;
+    line-height: 33px;
     display: inline-block;
+    width: 100%; 
+    margin-bottom: 20px;
 }
 
 
