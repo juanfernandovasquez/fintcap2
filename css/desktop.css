@@ -1,10 +1,9 @@
-header{
-    height: 60px;
-}
-.header--content-container{
+.header--container{
     max-width: 1024px;
-    flex-direction: row;
+    margin: 0 auto;
 }
 .header-logo p{
     margin: 0;
+    font-size: 4rem;
 }
+

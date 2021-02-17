@@ -1,21 +1,21 @@
+
+/*header*/ 
+.header-logo p{
+    font-size: 3.5rem;
+}
 .hamburger{
     display: none;
 }
 
 .navegation{
-    display: flex;
     width: 400px;
-    height: 100%;
+    height: 50px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.navegation a{
-    color: black;
-    font-size: 1.6rem;
-    text-decoration: none;
-}
-
-.header-logo p{
-    font-size: 3rem;
-
+    z-index: 0;
+    top: 0;
+    background-color: white;
+    position: inherit;
+    overflow: hidden;
 }

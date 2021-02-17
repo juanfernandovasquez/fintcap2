@@ -11,11 +11,6 @@ html{
     padding: 0;
 }
 /* Header */
-header{
-    margin: 0 auto;
-    background-color: white;
-}
-
 main{
     margin-top:70px
 }
@@ -38,32 +33,47 @@ main{
     font-size: 3rem;
     font-weight: bold;
 }
-
-/*navegation*/
-header .navegation{
-    z-index: 10;
-    position: fixed;
-}
-.navegation{
-    position: absolute;
-    display: none;
-    width: 100vw;
-    height: calc(100% - 70px);
-    background-color: black;
-    top: 70px;
-    overflow: scroll;
-}
-.asd{
+.header--container{
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 0px 20px;
 }
-.navegation a{
+
+/*navegation*/
+.navegation{
+    z-index: 10;
+    position: fixed;
+}
+.navegation{
+    display: none;
+    width: 100vw;
+    height: calc(100% - 70px);
+    background-color: white;
+    top: 70px;
+    overflow: scroll;
+}
+.navegation ul{
+    height: 100%;
+    display: block;
+    padding-top: 20%
+}
+.navegation ul li{
+    background-color: rgb(238 238 255);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.navegation ul li a{
+    padding: 20px 50%;
     display: block;
     color: black;
     font-size: 1.6rem;
     text-decoration: none;
+
 }
 .hamburger{
     z-index: 11;
