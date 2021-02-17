@@ -1,0 +1,16 @@
+.hamburger{
+    display: none;
+}
+
+.navegation{
+    display: flex;
+    width: 400px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegation a{
+    color: black;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
