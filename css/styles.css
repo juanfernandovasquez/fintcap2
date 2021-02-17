@@ -12,32 +12,62 @@ html{
 }
 /* Header */
 header{
-    height: 120px;
-    width: 90vw;
-    padding: 20px;
     margin: 0 auto;
+    background-color: white;
 }
 
+main{
+    margin-top:70px
+}
 .header--content-container{
-    width: 90%;
-    height: 100%;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: calc(50% - 50vw);
+    background-color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
 .header-logo p{
     display: inline-block;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
 /*navegation*/
+header .navegation{
+    z-index: 10;
+    position: fixed;
+}
 .navegation{
+    position: absolute;
     display: none;
+    width: 100vw;
+    height: calc(100% - 70px);
+    background-color: black;
+    top: 70px;
+    overflow: scroll;
+}
+.asd{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.navegation a{
+    display: block;
+    color: black;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.hamburger{
+    z-index: 11;
+    padding: 0px;
 }
 /*Main*/
 
